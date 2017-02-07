@@ -12,6 +12,10 @@
 		AC917EAC1E493E3800381D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC917EAA1E493E3800381D4C /* Main.storyboard */; };
 		AC917EAE1E493E3800381D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC917EAD1E493E3800381D4C /* Assets.xcassets */; };
 		AC917EB11E493E3800381D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC917EAF1E493E3800381D4C /* LaunchScreen.storyboard */; };
+		AC917EB91E49420D00381D4C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC917EB81E49420D00381D4C /* SecondViewController.swift */; };
+		AC917EBB1E49434000381D4C /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC917EBA1E49434000381D4C /* CircularTransition.swift */; };
+		AC917EBD1E496BA800381D4C /* FullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC917EBC1E496BA800381D4C /* FullSizeRender.jpg */; };
+		AC917EBF1E496CB500381D4C /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC917EBE1E496CB500381D4C /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		AC917EAD1E493E3800381D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC917EB01E493E3800381D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC917EB21E493E3800381D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC917EB81E49420D00381D4C /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AC917EBA1E49434000381D4C /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		AC917EBC1E496BA800381D4C /* FullSizeRender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FullSizeRender.jpg; path = ../../../Pictures/FullSizeRender.jpg; sourceTree = "<group>"; };
+		AC917EBE1E496CB500381D4C /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = ../../../Downloads/image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +63,13 @@
 			isa = PBXGroup;
 			children = (
 				AC917EA61E493E3800381D4C /* AppDelegate.swift */,
+				AC917EB81E49420D00381D4C /* SecondViewController.swift */,
+				AC917EBA1E49434000381D4C /* CircularTransition.swift */,
 				AC917EA81E493E3800381D4C /* ViewController.swift */,
 				AC917EAA1E493E3800381D4C /* Main.storyboard */,
 				AC917EAD1E493E3800381D4C /* Assets.xcassets */,
+				AC917EBC1E496BA800381D4C /* FullSizeRender.jpg */,
+				AC917EBE1E496CB500381D4C /* image.jpg */,
 				AC917EAF1E493E3800381D4C /* LaunchScreen.storyboard */,
 				AC917EB21E493E3800381D4C /* Info.plist */,
 			);
@@ -127,6 +139,8 @@
 				AC917EB11E493E3800381D4C /* LaunchScreen.storyboard in Resources */,
 				AC917EAE1E493E3800381D4C /* Assets.xcassets in Resources */,
 				AC917EAC1E493E3800381D4C /* Main.storyboard in Resources */,
+				AC917EBD1E496BA800381D4C /* FullSizeRender.jpg in Resources */,
+				AC917EBF1E496CB500381D4C /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC917EB91E49420D00381D4C /* SecondViewController.swift in Sources */,
 				AC917EA91E493E3800381D4C /* ViewController.swift in Sources */,
 				AC917EA71E493E3800381D4C /* AppDelegate.swift in Sources */,
+				AC917EBB1E49434000381D4C /* CircularTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +316,7 @@
 				AC917EB71E493E3800381D4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
